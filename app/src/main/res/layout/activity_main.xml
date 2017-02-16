@@ -4,12 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#237EAD"
+    android:background="#fff"
     tools:context=".MainActivity">
-
-    <com.garyhu.miclock.MiClockView
+    <Button
+        android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="SECOND"/>
+
+    <com.garyhu.miclock.MiClockView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
         android:layout_centerInParent="true"
         monkey:backgroundColor="#237EAD"
         monkey:darkColor="#80ffffff"
